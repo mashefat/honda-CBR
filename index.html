@@ -12,6 +12,9 @@
     <!-- font awesome cdn -->
     <script src="https://kit.fontawesome.com/4539ba3ae2.js" crossorigin="anonymous"></script>
 
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/cbr-logo.png" type="image/x-icon">
+
     <!-- bootstrap link -->
     <link rel="stylesheet" href="./css-bootstrap/bootstrap.min.css">
 
@@ -21,10 +24,42 @@
 <body>
     
     <header>
+        <!-- Menu section -->
+        <nav class="navbar navbar-expand-lg  bg-grey">
+            <div class="container">
+
+              <div style="width: 80px;" class="navbar-logo">
+                <a href="https://www.facebook.com/kana.baba.returns"> <img class="w-100 rounded-pill" src="./img/cbr-logo.png" alt=""></a>
+              </div>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+                <div class="menu-bar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active text-white" aria-current="page" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active text-white" aria-current="page" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active text-white" aria-current="page" href="#">Contact</a>
+                        </li>
+                      </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
 
         <!-- banner section -->
         <section>
-            <div class="banner-section py-4">
+            <div class="banner-section py-4 bg-grey">
                 <div class="container">
                     <div class="row">
 
@@ -300,12 +335,12 @@
                     <div class="col-lg-6 col-md-12 text-white d-flex  justify-content-end footer-item">
                        <div class="footer-right">
                         <h5>Get the app</h5>
-                        <button type="button" class="bg-blc border-white btn btn-lg px-4 text-white d-flex align-items-center">
+                        <button type="button" class="bg-blc border-white btn btn-lg px-4 text-white d-flex align-items-center footer-btn">
                             <span><i class="fa fa-apple me-2 fs-1" aria-hidden="true"></i></span>
                             <p class="m-0 fs-6 text-wrap" style="width: 8rem; height: 3rem;">Download on the <span  class="fs-4 my-0 fw-bold"> App Stores</span></p>
                           
                         </button>
-                        <button type="button" class="bg-blc border-white btn btn-lg px-4 text-white d-flex align-items-center mt-3">
+                        <button type="button" class="bg-blc border-white btn btn-lg px-4 text-white d-flex align-items-center mt-3 footer-btn">
                             <img style="height: 2.2rem;" src="./img/google-play.png" alt="">
                             <p class="m-0 fs-6 text-wrap" style="width: 8rem; height: 3rem;">Get it on <span  class="fs-4 my-0 fw-bold">Google Play</span></p>
                           

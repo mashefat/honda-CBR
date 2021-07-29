@@ -15,7 +15,7 @@ hr{
     width: 4rem;
 }
 /* banner section */
-.banner-section{
+.bg-grey{
    background: #264653;
    color: #fff;
 }
@@ -34,6 +34,7 @@ hr{
 .footer-secton ul li{
     margin-right: 1.5rem;
 }
+
 @media screen (max-width:780px;)  {
     .footer-item{
         display: flex;
